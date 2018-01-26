@@ -296,7 +296,9 @@ function buildMenuItemsViewHtml(categoryMenuItems,
       insertProperty(html,
                      "description",
                      menuItems[i].description);
-
+//test this stuff to call the name and prices
+var nameOfItem= menuItems[i].name ;
+var amount= menuItems[i].price_large ;
     // Add clearfix after every second menu item
     if (i % 2 !== 0) {
       html +=
